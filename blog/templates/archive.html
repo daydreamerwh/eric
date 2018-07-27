@@ -1,0 +1,6 @@
+<--archive.html-->
+{%for post in posts%}
+	<h2>{{post.title|title}}</h2>
+	<p>{{post.body}}</p>
+	<p>{{post.timestamp}}</p>
+{%endfor%}
